@@ -26,7 +26,7 @@ require() {
 
 [ "$(uname -s)" = "Linux" ] || error 'This script is intended to run on Linux only.'
 
-ARCH=arm32
+ARCH=arm64
 
 KERN=$(uname -r)
 case "$KERN" in
