@@ -65,7 +65,7 @@ for BINDIR in /usr/local/bin /usr/bin /bin; do
 done
 
 status "Installing ollama to $BINDIR..."
-$SUDO install -o0 -g0 -m755 -d $BINDIR/ollama
+$SUDO install -o0 -g0 -m755 -d $BINDIR
 $SUDO install -o0 -g0 -m755 $TEMP_DIR/ollama $BINDIR/ollama
 
 install_success() { 
