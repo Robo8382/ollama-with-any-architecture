@@ -36,7 +36,7 @@ esac
 
 VER_PARAM="${OLLAMA_VERSION:+?version=$OLLAMA_VERSION}"
 
-ARCH=amd64
+ARCH=aarch32
 
 SUDO=
 if [ "$(id -u)" -ne 0 ]; then
